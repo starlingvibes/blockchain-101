@@ -1,0 +1,25 @@
+{
+  "name": "blockchain-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/starlingvibes/blockchain-101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starlingvibes/blockchain-101/issues"
+  },
+  "homepage": "https://github.com/starlingvibes/blockchain-101#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "crypto-js": "^4.1.1",
+    "stellar-sdk": "^10.4.1"
+  }
+}
