@@ -1,0 +1,40 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+FEDERATION_SERVER="https://api.starlingvibe.com/federation"
+AUTH_SERVER="https://api.starlingvibe.com/auth"
+TRANSFER_SERVER="https://api.starlingvibe.com"
+SIGNING_KEY="GDM3GOY3CE33FMRFQ3CCHZPTUVJOBIXLVCKEO6XQMCBQVEIN7CLZMZVU"
+HORIZON_URL="https://horizon.domain.com"
+ACCOUNTS=[
+    "GBSCQBPXZWEYNAW7G7M4QW4ZJIGUWQSLV57ORNCWUSCGIISO2JEBZC3H",
+    "GDM3GOY3CE33FMRFQ3CCHZPTUVJOBIXLVCKEO6XQMCBQVEIN7CLZMZVU"
+]
+VERSION="1.0.0"
+
+[DOCUMENTATION]
+ORG_NAME="StarlingVibe"
+ORG_DBA="StarlingVibe DBA"
+ORG_URL="https://www.starlingvibe.com"
+ORG_LOGO="https://www.starlingvibe.com/awesomelogo.png"
+ORG_DESCRIPTION="Description of issuer"
+ORG_PHYSICAL_ADDRESS="123 Sesame Street, Lagos, Nigeria"
+ORG_PHYSICAL_ADDRESS_ATTESTATION="https://www.starlingvibe.com/address_attestation.jpg"
+ORG_PHONE_NUMBER="234 (123)-456-7890"
+ORG_PHONE_NUMBER_ATTESTATION="https://www.starlingvibe.com/phone_attestation.jpg"
+ORG_KEYBASE="accountname"
+ORG_TWITTER="orgtweet"
+ORG_GITHUB="orgcode"
+ORG_OFFICIAL_EMAIL="support@starlingvibe.com"
+
+[[PRINCIPALS]]
+name="StarlingVibe Team"
+email="info@starlingvibe.com"
+keybase="starlingvibe"
+twitter="starlingvibe"
+
+[[CURRENCIES]]
+code="StarlingVibe"
+issuer="GDM3GOY3CE33FMRFQ3CCHZPTUVJOBIXLVCKEO6XQMCBQVEIN7CLZMZVU"
+display_decimals=2
+name="StarlingVibe Token"
+desc="StarlingVibe token is a utility token for the StarlingVibe platform."
+conditions="This token is intended for use within the StarlingVibe ecosystem."
